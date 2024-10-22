@@ -50,6 +50,31 @@ header{
     width: 100%;
     margin-top: 20px;
 }
-#acordion{
+
+#literatura{
     margin: 40px 25% 0 25%;
+    padding: 0; 
+}
+#literatura p{
+    width: 100%;
+    margin-top: 20px; 
+}
+
+#rataimg{
+    height: 200px;
+    width: 300px;
+}
+.giros{
+    transform: skewX(-15deg);
+}
+
+#uno{
+    background-color: #0055A4;
+}
+#dos{
+    background-color: #b8261c;
+}
+.texto{
+    width: 400px;
+    padding: 10px 10px 10px 50px;
 }
