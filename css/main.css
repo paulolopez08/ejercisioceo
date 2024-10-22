@@ -60,20 +60,30 @@ header{
     margin-top: 20px; 
 }
 
-#rataimg{
-    height: 200px;
+.comidaimg{
+    height: 240px;
     width: 300px;
 }
 .giros{
-    transform: skewX(-15deg);
+    /* transform: skewX(-15deg); */
 }
 
-#uno{
-    background-color: #0055A4;
+#comida1{
+    width: 70%;
+    margin: 40px 10% 0 20%;
+    padding: 0;
 }
-#dos{
-    background-color: #b8261c;
+#comida2{
+    width: 70%;
+    margin: 40px 10% 0 20%;
+    padding: 0;   
 }
+#comida3{
+    width: 70%;
+    margin: 40px 10% 0 20%;
+    padding: 0;   
+}
+
 .texto{
     width: 400px;
     padding: 10px 10px 10px 50px;
