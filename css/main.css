@@ -75,24 +75,43 @@ header{
     height: 240px;
     width: 300px;
 }
-.giros{
-    /* transform: skewX(-15deg); */
-}
+
 
 #comida1{
     width: 70%;
     margin: 40px 10% 0 20%;
     padding: 0;
+
+    view-timeline-name: --image ;
+    view-timeline-axis: block;
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 25% cover 50%;
+    animation-fill-mode: both;
 }
 #comida2{
     width: 70%;
     margin: 40px 10% 0 20%;
     padding: 0;   
+
+    view-timeline-name: --image ;
+    view-timeline-axis: block;
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 25% cover 50%;
+    animation-fill-mode: both;
 }
 #comida3{
     width: 70%;
     margin: 40px 10% 0 20%;
-    padding: 0;   
+    padding: 0;
+    
+    view-timeline-name: --image ;
+    view-timeline-axis: block;
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 25% cover 50%;
+    animation-fill-mode: both;
 }
 
 .texto{
@@ -108,14 +127,22 @@ header{
     height: 420px;
     margin-left: 50px;
     background-color: #3E5923;
+
+    view-timeline-name: --image ;
+    view-timeline-axis: block;
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 25% cover 50%;
+    animation-fill-mode: both;
 }
 
 #foot{
-    margin-top: 20px;
-    background-color: #0055A4;
+    margin-top: 20px 0 0 0;
+    background-color: rgba(255, 244, 236, 0.979);
+    padding: 0;
 }
 #hola{
-    background-color: #0055A4;
+    background-color: rgba(255, 244, 236, 0.979);
 }
 
 @keyframes show{
@@ -127,4 +154,30 @@ header{
        opacity: 1; 
        scale: 100%;
     }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+    
+ .card-escritores{
+    margin-left: 20px;
+ }
+
+ #foot{
+    width: 100%;
+ }
+ .comidaimg{
+    height: 240px;
+    width: 60%;
+}
+.carruimg{
+    height: 200px;
+}
+
+
+.texto{
+    height: 350px;
+    width: 100%;
+    margin: 20px 0 0 0;
+    padding: 0;
+}
 }
