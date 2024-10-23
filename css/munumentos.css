@@ -67,32 +67,16 @@ padding: 0;
     flex-direction: row;   
 }
 
+.container {
+    display: flex;
+    justify-content:flex-start; 
+}
+
 .data{
     margin-top: 20px;
     width: 100%;
 }
 
-.pinturaimg{
-    height: 240px;
-    width: 300px;
-    margin-left: 20px;
-}
-
-#pintura1{
-    width: 100%;
-    margin: 40px 0% 0 0%;
-    padding: 0;
-}
-#pintura2{
-    width: 70%;
-    margin: 40px 10% 0 20%;
-    padding: 0;   
-}
-#pintura3{
-    width: 70%;
-    margin: 40px 10% 0 20%;
-    padding: 0;   
-}
 
 .texto{
     width: 400px;
@@ -139,15 +123,65 @@ padding: 0;
     }
 
 
+    .pintimg{
+        height: 240px;
+        width: 300px;
+    }
+    
+    
+    #pint1{
+        width: 70%;
+        margin: 0;
+        padding: 0;
+    
+        view-timeline-name: --image ;
+        view-timeline-axis: block;
+        animation-timeline: --image;
+        animation-name: show;
+        animation-range: entry 25% cover 50%;
+        animation-fill-mode: both;
+    }
+    #pint2{
+        width: 70%;
+        margin: 0;
+        padding: 0;   
+    
+        view-timeline-name: --image ;
+        view-timeline-axis: block;
+        animation-timeline: --image;
+        animation-name: show;
+        animation-range: entry 25% cover 50%;
+        animation-fill-mode: both;
+    }
+    #pint3{
+        width: 70%;
+        margin: 0;
+        padding: 0;
+        
+        view-timeline-name: --image ;
+        view-timeline-axis: block;
+        animation-timeline: --image;
+        animation-name: show;
+        animation-range: entry 25% cover 50%;
+        animation-fill-mode: both;
+    }
+    
+    .texto{
+        width: 400px;
+        padding: 0;
+        margin: 0;
+    }
+
+
 }
     
-.comidaimg{
+.pintimg{
     height: 240px;
     width: 300px;
 }
 
 
-#comida1{
+#pint1{
     width: 70%;
     margin: 40px 10% 0 20%;
     padding: 0;
@@ -159,7 +193,7 @@ padding: 0;
     animation-range: entry 25% cover 50%;
     animation-fill-mode: both;
 }
-#comida2{
+#pint2{
     width: 70%;
     margin: 40px 10% 0 20%;
     padding: 0;   
@@ -171,7 +205,7 @@ padding: 0;
     animation-range: entry 25% cover 50%;
     animation-fill-mode: both;
 }
-#comida3{
+#pint3{
     width: 70%;
     margin: 40px 10% 0 20%;
     padding: 0;
