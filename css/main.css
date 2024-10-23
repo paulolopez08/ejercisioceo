@@ -51,7 +51,7 @@ header{
 }
 
 .textCH{
-    color:#0055A4 ;
+    color:rgb(255, 0, 0) ;
 }
 #gastronomia{
     margin: 40px 25% 0 25%;
@@ -167,7 +167,7 @@ header{
  }
  .comidaimg{
     height: 240px;
-    width: 60%;
+    width: 90%;
 }
 .carruimg{
     height: 200px;
@@ -180,4 +180,5 @@ header{
     margin: 20px 0 0 0;
     padding: 0;
 }
+
 }
