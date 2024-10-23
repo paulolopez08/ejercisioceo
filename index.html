@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cultura francesa</title>
 </head>
-<body>
+<body id="body">
     <header>
         <div id="cabeza">
             <h1>CULTURA FRANCESA</h1>
@@ -28,7 +28,7 @@
                   <a class="nav-link" href="#literatura">literatura</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">festivales</a>
+                    <a class="nav-link" href="#foot">contacto</a>
                   </li>
                   
               </ul>
@@ -58,21 +58,21 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="assets/imagenes/juana-de-arco.webp" class="d-block w-100" alt="...">
+            <img src="assets/imagenes/juana-de-arco.webp" class="d-block w-100 carruimg" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5 class="textCH">juana de arco</h5>
               <p class="textCH">lucho durante la guerra de los 100 años.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="assets/imagenes/maximulien_robespierre.webp" class="d-block w-100" alt="...">
+            <img src="assets/imagenes/maximulien_robespierre.webp" class="d-block w-100 carruimg" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5 class="textCH">maximulien robespierre</h5>
               <p class="textCH">fue uno de los lideres de la revolucion francesa.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="assets/imagenes/luisXVI.png" class="d-block w-100" alt="..." id="reyimg">
+            <img src="assets/imagenes/luisXVI.png" class="d-block w-100 carruimg" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5 class="textCH">Rey luis XVI<</h5>
               <p class="textCH">fue el ultimo rey antes de la revolucion.</p>
@@ -138,5 +138,51 @@
       </p>
   </div>
   </div>
+
+  <div class="row container-fluid" id="escritores">
+    <div class="card card-escritores col-lg-4 col-sm-12" style="width: 18rem;" id="">
+        <img src="assets/imagenes/victor-hugo.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">victor hugo</p>
+        </div>
+      </div>
+    <div class="card card-escritores col-lg-4 col-sm-12" style="width: 18rem;" id="">
+        <img src="assets/imagenes/gustave.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Gustave Flaubert</p>
+        </div>
+      </div>
+      <div class="card card-escritores col-lg-4 col-sm-12" style="width: 18rem;" id="">
+        <img src="assets/imagenes/André-Breton2.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">André Breton</p>
+        </div>
+      </div>
+
+
+      <footer class="row col-lg-12 container-fluid" id="foot">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" id="menufoot">
+          <div class="container-fluid" id="hola">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown" >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="paginas/monumentos_nacionales.html">monumentos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#historia">historia</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#gastronomia" class="nav-link">gastronomia</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#literatura" class="nav-link">literatura</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </footer>
 </body>
 </html>
