@@ -46,6 +46,10 @@ padding: 0;
     margin: 40px 25% 0 25%;
     padding: 0%;
 }
+#especifico{
+    margin: 40px 25% 0 25%;
+    padding: 0%;
+}
 
 .monumentos img{
     width: 100%;
@@ -71,11 +75,12 @@ padding: 0;
 .pinturaimg{
     height: 240px;
     width: 300px;
+    margin-left: 20px;
 }
 
 #pintura1{
     width: 100%;
-    margin: 40px 5% 0 5%;
+    margin: 40px 0% 0 0%;
     padding: 0;
 }
 #pintura2{
@@ -136,3 +141,50 @@ padding: 0;
 
 }
     
+.comidaimg{
+    height: 240px;
+    width: 300px;
+}
+
+
+#comida1{
+    width: 70%;
+    margin: 40px 10% 0 20%;
+    padding: 0;
+
+    view-timeline-name: --image ;
+    view-timeline-axis: block;
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 25% cover 50%;
+    animation-fill-mode: both;
+}
+#comida2{
+    width: 70%;
+    margin: 40px 10% 0 20%;
+    padding: 0;   
+
+    view-timeline-name: --image ;
+    view-timeline-axis: block;
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 25% cover 50%;
+    animation-fill-mode: both;
+}
+#comida3{
+    width: 70%;
+    margin: 40px 10% 0 20%;
+    padding: 0;
+    
+    view-timeline-name: --image ;
+    view-timeline-axis: block;
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 25% cover 50%;
+    animation-fill-mode: both;
+}
+
+.texto{
+    width: 400px;
+    padding: 10px 10px 10px 50px;
+}
