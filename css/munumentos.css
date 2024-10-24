@@ -111,69 +111,8 @@ padding: 0;
 }
 
 
-    
-@media screen and (min-width: 320px) and (max-width: 480px){
-    #intro {
-        margin: 20px 15% 0 15%;
-        padding: 0;
-    }        
-    .monumentos{
-        margin: 40px 15% 0 15%;
-        padding: 0%;
-    }
 
 
-    .pintimg{
-        height: 240px;
-        width: 300px;
-    }
-    
-    
-    #pint1{
-        width: 70%;
-        margin: 0;
-        padding: 0;
-    
-        view-timeline-name: --image ;
-        view-timeline-axis: block;
-        animation-timeline: --image;
-        animation-name: show;
-        animation-range: entry 25% cover 50%;
-        animation-fill-mode: both;
-    }
-    #pint2{
-        width: 70%;
-        margin: 0;
-        padding: 0;   
-    
-        view-timeline-name: --image ;
-        view-timeline-axis: block;
-        animation-timeline: --image;
-        animation-name: show;
-        animation-range: entry 25% cover 50%;
-        animation-fill-mode: both;
-    }
-    #pint3{
-        width: 70%;
-        margin: 0;
-        padding: 0;
-        
-        view-timeline-name: --image ;
-        view-timeline-axis: block;
-        animation-timeline: --image;
-        animation-name: show;
-        animation-range: entry 25% cover 50%;
-        animation-fill-mode: both;
-    }
-    
-    .texto{
-        width: 400px;
-        padding: 0;
-        margin: 0;
-    }
-
-
-}
     
 .pintimg{
     height: 240px;
@@ -219,6 +158,42 @@ padding: 0;
 }
 
 .texto{
-    width: 400px;
-    padding: 10px 10px 10px 50px;
+    width: 300px;
+    padding: 10px 10px 10px 10px;
 }
+
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+    #intro {
+        margin: 20px 15% 0 15%;
+        padding: 0;
+    }        
+    .monumentos{
+        margin: 40px 15% 0 15%;
+        padding: 0%;
+    }  
+        
+    .pintimg{
+        height: 240px;
+        width: 90%; 
+        margin-top: 150px;
+    }
+    .carruimg{
+       height: 200px;
+    }
+       
+       
+    .texto{
+        height: 350px;
+       width: 100%;
+       margin: 20px 0 0 0;
+       padding: 0;
+    }
+       
+    
+
+
+
+
+
+    }
